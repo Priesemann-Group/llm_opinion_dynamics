@@ -1,0 +1,19 @@
+name: minimal-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - numba
+  - ipykernel
+  - ipywidgets
+  - pymc>=5
+  - arviz
+  - nutpie
+  - pip
+  - pip:
+      - openai
+      - tiktoken
