@@ -9,11 +9,11 @@ This repository contains code and resources for the paper: "Disentangling Intera
         - `raw/`
             - `model_comparison/` : traces of models for comparison.
             - `traces/` : traces of full models for every LLM (3 topics + just climate with individual attractors).
-    - `finetuning/` : Five model checkpoints for each initial opinion.
     - `simulations/` 
         - `processed/` : Prepared data for bayesian inference (opinion differences / changes, etc.).
         - `raw/` : Every measured metrics and complete text of discussions.
     - `topic priors/` : Measured opinions of every LLM without character initialization.
+    - NOTE: Due to size restrictions, you can find the five finetuned model checkpoints for each initial opinion at: https://doi.org/10.25625/4EKOMS
 
 - `envs/` : Conda environment files.
 
@@ -39,7 +39,7 @@ Note: Running simulations locally and sequentially takes a while (few hours on a
 ## Toy example
 Within the `toy_example/` folder, you find a minimal setup with jupyter notebooks to explore simulation and Bayesian inference of the results. This setup per default is limited to analyzing one discussion topic at a time. You can either run simulations by yourself or start directly with the Bayesian inference.
 
-Create the toy conda environment with `conda env create -f toy_example/toy_env.yml`. Both the simulation and inference notebook can be run with this. 
+Create the minimal toy conda environment with `conda env create -f toy_example/toy_env.yml`. Both the simulation and inference notebook can be run with this. 
 
 If you wish to perform the simulations by yourself, open `toy_simulation.ipynb`, insert your OpenAI API key and run the notebook. It contains a basic layout for llm agent discussions about climate change with normal and logically negated framing during opinion probing. The notebook will automatically store all the generated discussions in `toy_example/runs` and creates a Bayesian inference ready dataframe `your_data.csv`. 
 
