@@ -1,0 +1,20 @@
+{
+  "hyper": {
+    "log_sigma0_mu": -3,
+    "log_sigma0_sd": 0.5,
+    "beta_c_mu": 0.1,
+    "beta_c_sd": 0.05
+  },
+  "fixed": {
+    "alpha": 0.0,
+    "beta_t": 0.0,
+    "beta_a": 0.0,
+    "b": 0.0,
+
+    "epsilon": 0.2,
+    "lambda_interact": 1.5,
+    "lambda_b_topic": 2.0,
+    "lambda_b_agree": 0.3,
+    "lambda_b_anchor": 0.5
+  }
+}

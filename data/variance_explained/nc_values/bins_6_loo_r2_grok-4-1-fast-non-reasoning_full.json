@@ -1,0 +1,10 @@
+{
+  "noise_ceiling_lower": 0.2476125364183281,
+  "noise_ceiling_lower_ci_lb": 0.24382152914051108,
+  "noise_ceiling_lower_ci_ub": 0.2514134895336537,
+  "noise_ceiling_upper": 0.31110052944916966,
+  "pearson_r_lower": 0.4976068090554309,
+  "pearson_r_lower_ci_lb": 0.493782876516097,
+  "pearson_r_lower_ci_ub": 0.5014114972092819,
+  "pearson_r_upper": 0.5577638653132432
+}

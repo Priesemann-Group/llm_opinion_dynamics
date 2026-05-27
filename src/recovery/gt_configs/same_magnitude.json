@@ -1,0 +1,26 @@
+{
+  "hyper": {
+    "log_sigma0_mu": -3.0,
+    "log_sigma0_sd": 0.3,
+    "alpha_mu": 0.06,
+    "alpha_sd": 0.02,
+    "log_beta_t_mu": -0.15,
+    "log_beta_t_sd": 0.15,
+    "beta_a_mu": 0.06,
+    "beta_a_sd": 0.02,
+    "beta_c_mu": 0.06,
+    "beta_c_sd": 0.02
+  },
+  "fixed": {
+    "epsilon": 0.12,
+    "lambda_interact": 1.0,
+    "lambda_b_topic": 1.0,
+    "lambda_b_agree": 1.0,
+    "lambda_b_anchor": 1.0,
+    "b": {
+      "dist": "uniform",
+      "lower": 1,
+      "upper": 1
+    }
+  }
+}
