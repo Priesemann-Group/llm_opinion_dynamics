@@ -171,7 +171,7 @@ Local simulations require a CUDA-compatible GPU. Depending on model size and har
 
 ## Notes on reproducibility
 
-The repository includes processed data, posterior traces, recovery outputs, and final figure PDFs, so reviewers can inspect the reported analyses without rerunning all LLM simulations. Rerunning simulations may produce small numerical differences because LLM sampling and remote API backends can be stochastic or version-dependent.
+The repository includes processed data, posterior traces, recovery outputs, and final figure PDFs, so the reported analyses can be inspected without rerunning all LLM simulations. Rerunning simulations may produce small numerical differences because LLM sampling and remote API backends can be stochastic or version-dependent.
 
 ## License
 
