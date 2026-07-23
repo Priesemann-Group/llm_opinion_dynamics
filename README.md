@@ -12,7 +12,6 @@ This repository contains the simulation, Bayesian inference, parameter recovery,
 ```text
 llm_opinion_dynamics/
 ├── data/
-│   ├── inference_ready_data_all_discussions_s=25_l=5.parquet
 │   ├── mixtral_tuned_clim_data.csv
 │   ├── recovery/
 │   │   ├── recovery_data/
@@ -41,10 +40,14 @@ llm_opinion_dynamics/
 └── README.md
 ```
 
-The main processed analysis dataset is stored in `data/inference_ready_data_all_discussions_s=25_l=5.parquet`. Posterior traces are stored in `data/traces/`. Exported manuscript figures are provided in `figures/`, and figure-generation scripts are in `src/plotting/`.
+The data required for full functionality of this repository are archived separately at:
+https://doi.org/10.25625/MFVLDG
 
-Large fine-tuned model checkpoints are available at:
-https://doi.org/10.25625/4EKOMS
+This record contains both the processed inference data used for the Bayesian analyses and figure generation, and the full simulated discussion outputs with associated metadata.
+
+To reproduce the analyses, download the dataset and place or extract its contents into the repository’s `data/` directory. Posterior traces are stored in `data/traces/`. Exported manuscript figures are provided in `figures/`, and figure-generation scripts are in `src/plotting/`.
+
+Large fine-tuned model checkpoints are available at: https://doi.org/10.25625/4EKOMS
 
 ## Installation
 
